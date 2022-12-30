@@ -4,7 +4,7 @@ import http from 'http';
 import { Server } from 'socket.io';
 import path from 'path';
 
-const port = 3000;
+const port = 8080;
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
